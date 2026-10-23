@@ -21,7 +21,7 @@ PARA O CAMINHÃO QUE
 NÃO PODE PARAR.
 
 **Descrição**  
-A peça certa para seu caminhão está aqui! Atendimento especializado e consulta em cada pedido, componentes para quem não pode parar.
+A peça certa para seu caminhão está aqui! Conte qual é o caminhão, o ano e o que procura que a nossa equipe encontra para você!
 
 **Botões**
 
