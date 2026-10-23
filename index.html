@@ -157,6 +157,16 @@ footer{padding:40px 0 22px}footer .bottom{margin-top:25px;padding-top:20px}foote
 @media(max-width:760px){.story-visual.team-photo{max-width:260px}.story-visual.team-photo>img{height:260px}.team-photo figcaption{padding:11px 13px}}
 
 .story-visual.team-photo>img{height:450px;object-position:center center}@media(max-width:760px){.story-visual.team-photo>img{height:325px}}
+
+/* Publicações com imagem de ponta a ponta e proporções consistentes. */
+#instagram .social{align-items:stretch;gap:18px}
+#instagram .social-card{display:flex;flex-direction:column;min-width:0;padding:0;background:#fff;border:1px solid #dde4ed;overflow:hidden}
+#instagram .social-card img{display:block;flex:none;width:100%;height:auto;max-height:none;aspect-ratio:4 / 5;object-fit:cover;object-position:center center;background:#fff;transition:none}
+#instagram .social-card:nth-child(2) img{object-position:center bottom}
+#instagram .social-card:hover img{transform:none}
+#instagram .social-card>span{display:flex;align-items:center;flex:1;padding:16px 18px;min-height:54px;background:#fff;border-top:1px solid #dde4ed;color:#162b45;font-size:.77rem;line-height:1.5}
+@media(max-width:760px){#instagram .social{gap:14px;grid-auto-columns:86%;padding-bottom:12px}#instagram .social-card>span{min-height:50px;padding:13px 15px;font-size:.73rem}}
+
 </style></head><body>
 <div class="top">GARANTIA DE 90 DIAS <span style="opacity:.5;margin:0 10px">•</span> NOTA FISCAL EM TODAS AS COMPRAS</div>
 <header class="nav"><div class="wrap nav-inner"><a href="#inicio" class="logo" aria-label="JVL início"><img class="logo-real" src="assets/logo-marca.png" alt="JVL Componentes Automotivos"></a><button class="mobile-toggle" aria-label="Abrir menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</button><nav class="nav-links"><a href="#linhas">Linhas</a><a href="#produtos">Produtos</a><a href="#categorias">Categorias</a><a href="#empresa">A JVL</a><a href="#contato">Contato</a><a class="btn primary" href="https://www.mercadolivre.com.br/pagina/jvlpecasdiesel" target="_blank" rel="noopener">Comprar no Mercado Livre ↗</a></nav></div></header>
