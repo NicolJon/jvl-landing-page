@@ -20,6 +20,23 @@ h1,h2,h3,.brand-name{line-height:1.08}h1,h2,h3{overflow-wrap:break-word}.brand-n
 @media(max-width:1000px) and (min-width:761px){.hero-copy{width:52%}.hero .wrap{min-height:580px}.hero:before{background:linear-gradient(90deg,#101215 0 30%,#101215f0 44%,#10121565 67%,transparent)}.hero-media{left:30%}.hero-media img{object-position:54% center}.hero .actions{gap:10px}.hero .btn{font-size:.61rem;padding:13px}}
 @media(max-width:760px){.hero .wrap{display:block;min-height:0;padding-top:48px;padding-bottom:280px}.hero-copy{width:100%;max-width:none}.hero-media{inset:auto 0 0 0;height:300px;width:100%;mask-image:linear-gradient(180deg,transparent,#000 30%);-webkit-mask-image:linear-gradient(180deg,transparent,#000 30%)}.hero-media img{object-fit:cover;object-position:center 68%;max-height:none}.hero-media>span{font-size:.45rem;right:20px;bottom:14px}.hero:before{background:linear-gradient(180deg,#101215 0%,#101215 60%,#10121530 80%,transparent 100%)}.hero:after{background:linear-gradient(125deg,transparent 0 65%,#ffffff0d 65.1% 65.3%,transparent 65.4%)}.hero{background:#07588b}.hero .chips{gap:12px}.hero .eyebrow{font-size:.58rem}}
 .hero:before{width:auto;height:auto}
+
+/* Proporção panorâmica solicitada: largura 20, altura 7. */
+@media(min-width:1001px){
+ .hero{aspect-ratio:20 / 7;min-height:0;height:auto}
+ .hero .wrap{position:absolute;inset:0;width:100%;height:100%;min-height:0;margin:auto;padding-top:24px;padding-bottom:24px}
+ .hero-copy{width:48%;max-width:590px}
+ .hero .eyebrow{font-size:.62rem;line-height:1.5;margin-bottom:12px}
+ .hero h1{font-size:clamp(2rem,9.5cqw,4.8rem);line-height:1.08;margin-bottom:16px}
+ .hero-sub{font-size:.83rem;line-height:1.55;margin:0}
+ .hero .actions{margin-top:20px;gap:12px}
+ .hero .btn{min-height:43px;padding:11px 16px;font-size:.63rem}
+ .hero .chips{margin-top:20px;font-size:.67rem;gap:15px}
+ .hero-media{left:31%}
+ .hero-media img{object-position:56% 52%}
+ .hero-media>span{bottom:15px;right:25px;font-size:.48rem}
+}
+@media(min-width:761px) and (max-width:1000px){.hero .wrap{min-height:420px;padding-top:32px;padding-bottom:32px}.hero .eyebrow{margin-bottom:12px}.hero h1{margin-bottom:16px}.hero-sub{font-size:.8rem;line-height:1.5}.hero .actions{margin-top:20px}.hero .chips{margin-top:20px;font-size:.65rem}}
 </style></head><body>
 <div class="top">GARANTIA DE 90 DIAS <span style="opacity:.5;margin:0 10px">•</span> NOTA FISCAL EM TODAS AS COMPRAS</div>
 <header class="nav"><div class="wrap nav-inner"><a href="#inicio" class="logo" aria-label="JVL início"><img class="logo-real" src="assets/logo-marca.png" alt="JVL Componentes Automotivos"></a><button class="mobile-toggle" aria-label="Abrir menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</button><nav class="nav-links"><a href="#linhas">Linhas</a><a href="#produtos">Produtos</a><a href="#categorias">Categorias</a><a href="#empresa">A JVL</a><a href="#contato">Contato</a><a class="btn primary" href="https://www.mercadolivre.com.br/pagina/jvlpecasdiesel" target="_blank" rel="noopener">Comprar no Mercado Livre ↗</a></nav></div></header>
