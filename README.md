@@ -20,7 +20,7 @@ Pronto para GitHub Pages usando a branch `main` e a pasta raiz (`/`). Os caminho
 
 - O endereço principal configurado é `https://jvlpecas.com.br/`. Ajuste `index.html`, `robots.txt` e `sitemap.xml` se o domínio de publicação mudar.
 - Publique `robots.txt` e `sitemap.xml` na raiz junto com `index.html`. No Google Search Console, cadastre a propriedade do domínio, conclua a verificação por DNS (ou adicione a tag de verificação fornecida pelo Google diretamente no `<head>` do HTML) e envie `https://jvlpecas.com.br/sitemap.xml`.
-- Preencha os IDs oficiais de GA4 e Pixel da Meta em `tracking-config.js`. Valores vazios desativam as respectivas tags. A faixa de consentimento impede o carregamento de ambas até o visitante aceitar.
+- `tracking-config.js` contém o GA4 `G-Y8EQG1PRHM` e o conjunto de dados da Meta `181323993640597` da conta JVL PEÇAS DIESEL. A faixa de consentimento impede o carregamento de ambas as tags até o visitante aceitar.
 - `privacidade.html` explica a coleta e permite reabrir a escolha de cookies. Revise o texto com a JVL antes da publicação definitiva.
 - Os eventos registram visitas, cliques para WhatsApp, telefone, email e Mercado Livre. No GA4, `generate_lead` indica clique para WhatsApp; no Pixel, o evento correspondente é `Contact`. Um clique mede intenção de contato, não uma conversa ou venda confirmada.
 - Teste a publicação com o relatório em tempo real do GA4, o Meta Pixel Helper e a inspeção de URL do Search Console. Essas verificações dependem dos IDs, da propriedade e do site publicado.
