@@ -1,5 +1,5 @@
-// Preencha apenas com IDs das contas oficiais da JVL antes de publicar.
+// IDs de medição das contas oficiais da JVL.
 window.JVL_TRACKING = {
   ga4Id: 'G-Y8EQG1PRHM',
-  metaPixelId: '' // Exemplo: 123456789012345
+  metaPixelId: '181323993640597'
 };
